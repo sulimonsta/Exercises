@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(to bottom, #FFD700, #FFA500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.suggestions ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background: #F0F0F0;
+}
